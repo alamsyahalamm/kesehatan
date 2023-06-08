@@ -17,8 +17,8 @@
                       <span class="avatar avatar-sm"
                           style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                       <div class="d-none d-xl-block ps-2">
-                          <div>Paweł Kuna</div>
-                          <div class="mt-1 small text-muted">UI Designer</div>
+                          <div>Muhammad Alamsyah</div>
+                          <div class="mt-1 small text-muted">web developer</div>
                       </div>
                   </a>
                   <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">

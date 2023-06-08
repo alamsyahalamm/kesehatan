@@ -23,3 +23,4 @@ Route::get('/categories', CategoriesComponent::class)->name('Beranda');
 Route::get('/artikel', ArtikelComponent::class)->name('artikel');
 Route::get('/categories/create',CreateComponent::class)->name('categories.create');
 Route::get('/categories/{categoriesId}/update',UpdateComponent::class)->name('categories.update');
+Route::delete('/categories/{categoriesId}/delate',CreateComponent::class)->name('categories.destroy');
