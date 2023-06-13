@@ -19,17 +19,18 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach ($allCategories as $item)
-                        <tr>
-                            <td>{{ $loop->iteration }}</td>
-                            <td>{{ $item->name }}</td>
-                            <td class="d-flex gap-1">
-                                <a href="{{ route('categories.update', $item->id) }}" class="btn btn-yellow">Edit</a>
-                                <a href="#" wire:click.prevent="destroy({{ $item->id }})"
-                                    class="btn btn-red">Delete</a>
-                            </td>
-                        </tr>
-                    @endforeach
+                   @foreach ($allCategories as $item)
+
+                   <tr>
+                       <th>{{ $loop->iteration }}</th>
+                       <th>{{ $item->name }}</th>
+
+                  <td class="d-flex gap-1">
+                   <a href="{{ route('categories.update',$item->id) }}" class="btn btn-yellow">Edit</a>
+                   <a href="#" class="btn btn-red">Delete</a>
+                  </td>
+                  </tr>
+                   @endforeach
                 </tbody>
             </table>
         </div>

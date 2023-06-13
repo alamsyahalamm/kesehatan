@@ -17,7 +17,7 @@
                         <span class="error">{{ $message }}</span>
                          @enderror
                          <div class="mt-3"></div>
-                    <button class="btn btn-primary">Save</button>
+                    <button class="btn btn-primary">Update</button>
                 </div>
             </form>
         </div>

@@ -11,7 +11,7 @@
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="{{ route('artikel') }}">
-                              <span class="nav-link-title">Artikel</span>
+                              <span class="nav-link-title">Daftar</span>
                           </a>
                       </li>
                       <li class="nav-item dropdown">
